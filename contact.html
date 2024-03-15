@@ -28,6 +28,9 @@
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
+    <!-- Bootstrap CSS -->
+    <!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"> -->
+
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
 </head>
@@ -55,21 +58,29 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto py-0 pe-4">
-                        <a href="index.html" class="nav-item nav-link">Home</a>
-                        <a href="about.html" class="nav-item nav-link">About</a>
-                        <a href="service.html" class="nav-item nav-link">Service</a>
-                        <a href="menu.html" class="nav-item nav-link">Menu</a>
-                        <div class="nav-item dropdown">
+                        <a id="home" href="index.html" class="nav-item nav-link">Home</a>
+                      <!--  <a href="about.html" class="nav-item nav-link">About</a> -->
+                      <!--  <a href="service.html" class="nav-item nav-link">Service</a> -->
+                        <a id="menu" href="menu.html" class="nav-item nav-link">Menu</a>
+                       <!-- <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                             <div class="dropdown-menu m-0">
                                 <a href="booking.html" class="dropdown-item">Booking</a>
                                 <a href="team.html" class="dropdown-item">Our Team</a>
                                 <a href="testimonial.html" class="dropdown-item">Testimonial</a>
                             </div>
-                        </div>
-                        <a href="contact.html" class="nav-item nav-link active">Contact</a>
+                        </div> -->
+                        <a id="contact" href="contact.html" class="nav-item nav-link active">Contact</a>
                     </div>
-                    <a href="" class="btn btn-primary py-2 px-4">Book A Table</a>
+                  <!--  <a href="" class="btn btn-primary py-2 px-4">Book A Table</a> -->
+                </div>
+                <div class="dropdown">
+                    <button id="language" type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Language</button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" id="language-dropdown">
+                        <a class="dropdown-item" href="#" onclick="changeLanguage('en')">English</a>
+                        <a class="dropdown-item" href="#" onclick="changeLanguage('es')">Español</a>
+                        <!-- Add more languages as needed -->
+                    </div>
                 </div>
             </nav>
 
@@ -243,6 +254,7 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    <script src="js/lang.js"></script>
 </body>
 
 </html>
