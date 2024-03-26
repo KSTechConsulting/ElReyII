@@ -10,7 +10,7 @@ function changeLanguage(lang) {
  function updateContent(lang) {
       // Fetch language data dynamically (from server or JSON file)
     // For the sake of simplicity, we'll use a simple object
-    //console.log(lang);
+    console.log(lang);
     const languageData = {
     'en': {
        //header
@@ -79,11 +79,11 @@ function changeLanguage(lang) {
         contactbootunsendmessage: 'Enviar mensaje',
         name: 'Su nombre',
         email: 'Tu correo electrónico',
-        subject: 'Sujeto',
+        subject: 'Asunto',
         message: 'Deja un mensaje aquí',
         namelabel: 'Su nombre',
         emaillabel: 'Tu correo electrónico',
-        subjectlabel: 'Sujeto',
+        subjectlabel: 'Asunto',
         messagelabel: 'Mensaje',
 
         //footer
@@ -102,8 +102,8 @@ function changeLanguage(lang) {
         // Add more languages as needed
     };
     //var idiomaSeleccionado = document.getElementById('selectorIdioma').value;
-    document.getElementById('name').setAttribute('placeholder', languageData[lang].name);
-    document.getElementById('footeryouremail').setAttribute('placeholder', languageData[lang].email);
+    //document.getElementById('name').setAttribute('placeholder', languageData[lang].name);
+     document.getElementById('footeryouremail').setAttribute('placeholder', languageData[lang].footeryouremail);
    
     // Update content based on selected language
    
@@ -133,7 +133,7 @@ function changeLanguage(lang) {
     $('#footernew').text(languageData[lang].footernew);
     $('#footerbootunnews').text(languageData[lang].footerbootunnews);
     $('#footerbootunsendnews').text(languageData[lang].footerbootunsendnews);
-    $('#footeryouremail').text(languageData[lang].footeryouremail);
+    //$('#footeryouremail').text(languageData[lang].footeryouremail);
     $('#footeropening').text(languageData[lang].footeropening);
     $('#footercontact').text(languageData[lang].footercontact);
     $('#footercompny').text(languageData[lang].footercompny);
