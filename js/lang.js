@@ -29,7 +29,7 @@ function changeLanguage(lang) {
 
     //Contact Start -->
         contactst1: 'Contact Us',
-        contactst2: 'Contact For Any Query',
+        contactst2: 'Contact us with any questions',
         contactbooking: 'Booking',
         contactgeneral: 'General',
         contacttechnical: 'Technical',
@@ -67,11 +67,11 @@ function changeLanguage(lang) {
        //body
        homecontactbd: 'Inicio', 
        pagescontactbd: 'Páginas',
-       contactus: 'Contacta con nosotros',
+       contactus: 'Contáctanos',
        contactbd: 'Contacto',
 
         //Contact Start -->
-        contactst1: 'Contacta con nosotros',
+        contactst1: 'Contáctanos',
         contactst2: 'Contacto Para Cualquier Consulta',
         contactbooking: 'Reserva',
         contactgeneral: 'General',
