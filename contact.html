@@ -77,8 +77,8 @@
                 <div class="dropdown">
                     <button id="language" type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Language</button>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" id="language-dropdown">
-                        <a class="dropdown-item" href="#" onclick="changeLanguage('en')">English</a>
-                        <a class="dropdown-item" href="#" onclick="changeLanguage('es')">Español</a>
+                        <a class="dropdown-item" href="" onclick="changeLanguage('en')">English</a>
+                        <a class="dropdown-item" href="" onclick="changeLanguage('es')">Español</a>
                         <!-- Add more languages as needed -->
                     </div>
                 </div>
@@ -111,15 +111,15 @@
                     <div class="col-12">
                         <div class="row gy-4">
                             <div class="col-md-4">
-                                <h5 class="section-title ff-secondary fw-normal text-start text-primary">Booking</h5>
+                                <h5 id="contactbooking" class="section-title ff-secondary fw-normal text-start text-primary">Booking</h5>
                                 <p><i class="fa fa-envelope-open text-primary me-2"></i>Bookeepereley@gmail.com</p>
                             </div>
                             <div class="col-md-4">
-                                <h5 class="section-title ff-secondary fw-normal text-start text-primary">General</h5>
+                                <h5 id="contactgeneral" class="section-title ff-secondary fw-normal text-start text-primary">General</h5>
                                 <p><i class="fa fa-envelope-open text-primary me-2"></i>Bookeepereley@gmail.com</p>
                             </div>
                             <div class="col-md-4">
-                                <h5 class="section-title ff-secondary fw-normal text-start text-primary">Technical</h5>
+                                <h5 id="contacttechnical" class="section-title ff-secondary fw-normal text-start text-primary">Technical</h5>
                                 <p><i class="fa fa-envelope-open text-primary me-2"></i>Bookeepereley@gmail.com</p>
                             </div>
                         </div>
@@ -134,29 +134,29 @@
                                     <div class="col-md-6">
                                         <div class="form-floating">
                                             <input type="text" class="form-control" id="name" placeholder="Your Name">
-                                            <label for="name">Your Name</label>
+                                            <label id="namelabel" for="name">Your Name</label>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-floating">
                                             <input type="email" class="form-control" id="email" placeholder="Your Email">
-                                            <label for="email">Your Email</label>
+                                            <label id="emaillabel" for="email">Your Email</label>
                                         </div>
                                     </div>
                                     <div class="col-12">
                                         <div class="form-floating">
                                             <input type="text" class="form-control" id="subject" placeholder="Subject">
-                                            <label for="subject">Subject</label>
+                                            <label id="subjectlabel" for="subject">Subject</label>
                                         </div>
                                     </div>
                                     <div class="col-12">
                                         <div class="form-floating">
                                             <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 150px"></textarea>
-                                            <label for="message">Message</label>
+                                            <label id="messagelabel" for="message">Message</label>
                                         </div>
                                     </div>
                                     <div class="col-12">
-                                        <button class="btn btn-primary w-100 py-3" type="submit">Send Message</button>
+                                        <button id="contactbootunsendmessage" class="btn btn-primary w-100 py-3" type="submit">Send Message</button>
                                     </div>
                                 </div>
                             </form>
@@ -173,15 +173,15 @@
             <div class="container py-5">
                 <div class="row g-5">
                     <div class="col-lg-3 col-md-6">
-                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Company</h4>
+                        <h4 id="footercompny" class="section-title ff-secondary text-start text-primary fw-normal mb-4">Company</h4>
                        <!-- <a class="btn btn-link" href="">About Us</a> -->
-                        <a class="btn btn-link" href="">Contact Us</a>
+                        <a id="footercontactus" class="btn btn-link" href="">Contact Us</a>
                        <!-- <a class="btn btn-link" href="">Reservation</a>
                         <a class="btn btn-link" href="">Privacy Policy</a>
                         <a class="btn btn-link" href="">Terms & Condition</a> -->
                     </div>
                     <div class="col-lg-3 col-md-6">
-                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Contact</h4>
+                        <h4 id="footercontact" class="section-title ff-secondary text-start text-primary fw-normal mb-4">Contact</h4>
                         <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>1064 Liberty Ave, Brooklyn, New York, USA 11208</p>
                         <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>718-235-5522 / 277-9497</p>
                         <p class="mb-2"><i class="fa fa-envelope me-3"></i>Bookeepereley@gmail.com</p>
@@ -194,18 +194,18 @@
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6">
-                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Opening</h4>
+                        <h4 id="footeropening" class="section-title ff-secondary text-start text-primary fw-normal mb-4">Opening</h4>
                         <h5 class="text-light fw-normal">Sunday - Thursday</h5>
                         <p>8 AM - 11 PM</p>
                         <h5 class="text-light fw-normal">Friday - Saturday</h5>
                         <p>8 AM - 12 PM</p>
                     </div>
                     <div class="col-lg-3 col-md-6">
-                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Newsletter</h4>
-                        <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+                        <h4 id="footerbootunnews" class="section-title ff-secondary text-start text-primary fw-normal mb-4">Newsletter</h4>
+                        <p id="footernew">Send us your email to stay informed about our offers and events</p>
                         <div class="position-relative mx-auto" style="max-width: 400px;">
-                            <input class="form-control border-primary w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
-                            <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                            <input id="footeryouremail" class="form-control border-primary w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                            <button id="footerbootunsendnews" type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">Send</button>
                         </div>
                     </div>
                 </div>
