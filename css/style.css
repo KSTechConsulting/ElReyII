@@ -5,6 +5,16 @@
     --dark:  #3C1AFF;                   /* #0F172B; */
 }
 
+.table-striped th {
+    /* background-color: var(--light); */
+     color: var(--dark);
+  }
+
+  .table-striped td {
+   /* background-color: var(--light); */
+    color: var(--primary);
+ }
+
 .ff-secondary {
     font-family: 'Pacifico', cursive;
 }
