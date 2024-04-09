@@ -88,9 +88,9 @@
                 <div class="container my-5 py-5">
                     <div class="row align-items-center g-5">
                         <div class="col-lg-6 text-center text-lg-start">
-                            <h1 class="display-3 text-white animated slideInLeft">Enjoy Our<br>Delicious Meal</h1>
-                            <p class="text-white animated slideInLeft mb-4 pb-2">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
-                            <a href="menu.html" class="btn btn-primary py-sm-3 px-sm-5 me-3 animated slideInLeft">Menu</a>
+                            <h1 id="indmsg" class="display-3 text-white animated slideInLeft">Enjoy Our<br>Delicious Meal</h1>
+                           <!-- <p class="text-white animated slideInLeft mb-4 pb-2">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p> -->
+                            <a id="indbutonmenu" href="menu.html" class="btn btn-primary py-sm-3 px-sm-5 me-3 animated slideInLeft">Menu</a>
                         </div>
                         <div class="col-lg-6 text-center text-lg-end overflow-hidden">
                             <img class="img-fluid" src="img/hero.png" alt="">
@@ -205,8 +205,8 @@
         <div class="container-xxl py-5">
             <div class="container">
                 <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                    <h5 class="section-title ff-secondary text-center text-primary fw-normal">Food Menu</h5>
-                    <h1 class="mb-5">Most Popular Items</h1>
+                    <h5 id="indfmmenu" class="section-title ff-secondary text-center text-primary fw-normal">Food Menu</h5>
+                    <h1 id="indmpimenu" class="mb-5">Most Popular Items</h1>
                 </div>
                 <div class="tab-class text-center wow fadeInUp" data-wow-delay="0.1s">
                     <ul class="nav nav-pills d-inline-flex justify-content-center border-bottom mb-5">
@@ -214,8 +214,8 @@
                             <a class="d-flex align-items-center text-start mx-3 ms-0 pb-3 active" data-bs-toggle="pill" href="#tab-1">
                                 <i class="fa fa-coffee fa-2x text-primary"></i>
                                 <div class="ps-3">
-                                    <small class="text-body">Popular</small>
-                                    <h6 class="mt-n1 mb-0">Breakfast</h6>
+                                    <small id="idpop" class="text-body">Popular</small>
+                                    <h6 id="idpopbreak" class="mt-n1 mb-0">Breakfast</h6>
                                 </div>
                             </a>
                         </li>
@@ -223,8 +223,8 @@
                             <a class="d-flex align-items-center text-start mx-3 pb-3" data-bs-toggle="pill" href="#tab-2">
                                 <i class="fa fa-hamburger fa-2x text-primary"></i>
                                 <div class="ps-3">
-                                    <small class="text-body">Special</small>
-                                    <h6 class="mt-n1 mb-0">Launch</h6>
+                                    <small id="idspc" class="text-body">Special</small>
+                                    <h6 id="idspclanc" class="mt-n1 mb-0">Lunch/Dinner</h6>
                                 </div>
                             </a>
                         </li>
@@ -232,88 +232,88 @@
                             <a class="d-flex align-items-center text-start mx-3 me-0 pb-3" data-bs-toggle="pill" href="#tab-3">
                                 <i class="fa fa-utensils fa-2x text-primary"></i>
                                 <div class="ps-3">
-                                    <small class="text-body">Lovely</small>
-                                    <h6 class="mt-n1 mb-0">Dinner</h6>
+                                    <small id="idlove" class="text-body">Lovely</small>
+                                    <h6 id="idlovedinner" class="mt-n1 mb-0">Drinks</h6>
                                 </div>
                             </a>
                         </li>
                     </ul>
                     <div class="tab-content">
-                        <div id="tab-1" class="tab-pane fade show p-0 active">
+                      <!--Starts Breakfast  -->  <div id="tab-1" class="tab-pane fade show p-0 active">
                             <div class="row g-4">
                                 <div class="col-lg-6">
                                     <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-1.jpg" alt="" style="width: 80px;">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/IMG_8246.heic" alt="" style="width: 80px;">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
+                                                <span id="homemenutab">2 Eggs any style w.</span>
+                                                <span class="text-primary">$6.25</span>
                                             </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                            <small id="homemenutab1" class="fst-italic">Bacon, ham, sausage, potateos, toast, coffe or tea.</small>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-2.jpg" alt="" style="width: 80px;">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/IMG_8260.heic" alt="" style="width: 80px;">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
+                                                <span id="homemenutab2">Pancakes</span>
+                                                <span class="text-primary">$6.75</span>
                                             </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                            <small id="homemenutab3" class="fst-italic">With egg & sausage</small>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-3.jpg" alt="" style="width: 80px;">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/IMG_8267.heic" alt="" style="width: 80px;">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
+                                                <span id="homemenutab4">French toast</span>
+                                                <span class="text-primary">$6.75</span>
                                             </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                            <small id="homemenutab5" class="fst-italic">With egg & sausage</small>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-4.jpg" alt="" style="width: 80px;">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/IMG_8268.heic" alt="" style="width: 80px;">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
+                                                <span id="homemenutab6">Dominican Breakfast</span>
+                                                <span class="text-primary">$5.75</span>
                                             </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                            <small id="homemenutab7" class="fst-italic">1 Meat / 1 Choice</small>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-5.jpg" alt="" style="width: 80px;">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/IMG_8271.heic" alt="" style="width: 80px;">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
+                                                <span id="homemenutab8">Cuban</span>
+                                                <span class="text-primary">$6.50</span>
                                             </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                            <small id="homemenutab9" class="fst-italic"></small>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-6.jpg" alt="" style="width: 80px;">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/IMG_8250.heic" alt="" style="width: 80px;">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
+                                                <span id="homemenutab10">Beef tripe</span>
+                                                <span class="text-primary">$7.25</span>
                                             </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                            <small id="homemenutab11" class="fst-italic">(Wed, Sat, Sun)</small>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-6">
+                              <!--<div class="col-lg-6">
                                     <div class="d-flex align-items-center">
                                         <img class="flex-shrink-0 img-fluid rounded" src="img/menu-7.jpg" alt="" style="width: 80px;">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
@@ -324,8 +324,8 @@
                                             <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="col-lg-6">
+                                </div> -->
+                            <!-- <div class="col-lg-6">
                                     <div class="d-flex align-items-center">
                                         <img class="flex-shrink-0 img-fluid rounded" src="img/menu-8.jpg" alt="" style="width: 80px;">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
@@ -336,96 +336,96 @@
                                             <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
                             </div>
-                        </div>
-                        <div id="tab-2" class="tab-pane fade show p-0">
+                        </div> <!--End Breakfast  -->
+                      <!--Start Lunch/Dinner  -->  <div id="tab-2" class="tab-pane fade show p-0">
                             <div class="row g-4">
                                 <div class="col-lg-6">
                                     <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-1.jpg" alt="" style="width: 80px;">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/IMG_8278.heic" alt="" style="width: 80px;">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
+                                                <span id="homemenutab12">Grilled chicken breast</span>
+                                                <span class="text-primary">$5.50</span>
                                             </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                         <!--   <small id="homemenutab13" class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small> -->
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-2.jpg" alt="" style="width: 80px;">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/IMG_8291.heic" alt="" style="width: 80px;">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
+                                                <span id="homemenutab14">Chicken cordon blue</span>
+                                                <span class="text-primary">$13.95</span>
                                             </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                            <small id="homemenutab15" class="fst-italic">(no side)</small>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-3.jpg" alt="" style="width: 80px;">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/IMG_8303.heic" alt="" style="width: 80px;">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
+                                                <span id="homemenutab16">Skirt steak w/ shrimp</span>
+                                                <span class="text-primary">$24.95</span>
                                             </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                          <!--  <small id="homemenutab17" class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small> -->
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-4.jpg" alt="" style="width: 80px;">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/IMG_8309.heic" alt="" style="width: 80px;">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
+                                                <span id="homemenutab18">Chicken with rice</span>
+                                                <span class="text-primary">$8.00</span>
                                             </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                          <!--  <small id="homemenutab19" class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small> -->
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-5.jpg" alt="" style="width: 80px;">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/IMG_8298.heic" alt="" style="width: 80px;">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
+                                                <span id="homemenutab20">Pork chops</span>
+                                                <span class="text-primary">$8.95</span>
                                             </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                            <small id="homemenutab21" class="fst-italic">(1PC)</small>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-6.jpg" alt="" style="width: 80px;">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/IMG_8319.heic" alt="" style="width: 80px;">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
+                                                <span id="homemenutab22">Mofongo W.roast pork</span>
+                                                <span class="text-primary">$7.75</span>
                                             </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                            <small id="homemenutab23" class="fst-italic">Mashed fried green plantain</small> 
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-7.jpg" alt="" style="width: 80px;">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/IMG_8213.heic" alt="" style="width: 80px;">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
+                                                <span id="homemenutab24">Beef chimichurri</span>
+                                                <span class="text-primary">$5.75</span>
                                             </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                         <!--   <small id="homemenutab25" class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small> -->
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-6">
+                               <!-- <div class="col-lg-6">
                                     <div class="d-flex align-items-center">
                                         <img class="flex-shrink-0 img-fluid rounded" src="img/menu-8.jpg" alt="" style="width: 80px;">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
@@ -436,109 +436,157 @@
                                             <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
                             </div>
-                        </div>
-                        <div id="tab-3" class="tab-pane fade show p-0">
+                        </div><!--End Lunch/Dinner  -->
+                     <!--Starts Drinks  -->   <div id="tab-3" class="tab-pane fade show p-0">
                             <div class="row g-4">
                                 <div class="col-lg-6">
                                     <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-1.jpg" alt="" style="width: 80px;">
+                                      <!--  <img class="flex-shrink-0 img-fluid rounded" src="img/menu-1.jpg" alt="" style="width: 80px;"> -->
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
+                                                <span id="homemenutab26">Non - Alcoholic</span>
+                                              <!--  <span class="text-primary">$115</span> -->
                                             </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                          <!--  <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small> -->
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-2.jpg" alt="" style="width: 80px;">
+                                       <!-- <img class="flex-shrink-0 img-fluid rounded" src="img/menu-1.jpg" alt="" style="width: 80px;"> -->
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
+                                                <span id="homemenutab27">Alcoholic</span>
+                                              <!--  <span class="text-primary">$115</span> -->
                                             </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                           <!-- <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small> -->
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-3.jpg" alt="" style="width: 80px;">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/IMG_8365.HEIC" alt="" style="width: 80px;">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
+                                                <span id="homemenutab28">Orange juice</span>
+                                                <span class="text-primary">$4.00</span>
                                             </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                           <!-- <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small> -->
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-4.jpg" alt="" style="width: 80px;">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/IMG_8338.heic" alt="" style="width: 80px;">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
+                                                <span id="homemenutab29">Piña colada</span>
+                                                <span class="text-primary">$</span>
                                             </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                           <!-- <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small> -->
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-5.jpg" alt="" style="width: 80px;">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/IMG_8356.heic" alt="" style="width: 80px;">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
+                                                <span id="homemenutab30">Pineapple juice</span>
+                                                <span class="text-primary">$4.00</span>
                                             </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                          <!--  <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small> -->
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-6.jpg" alt="" style="width: 80px;">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/IMG_8342.heic" alt="" style="width: 80px;">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
+                                                <span id="homemenutab31">Sangria</span>
+                                                <span class="text-primary">$</span>
                                             </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                            <small id="homemenutab31a" class="fst-italic">White/Red</small>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-7.jpg" alt="" style="width: 80px;">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/IMG_8358.heic" alt="" style="width: 80px;">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
+                                                <span id="homemenutab32">Carrot juice</span>
+                                                <span class="text-primary">$4.00</span>
                                             </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                          <!--  <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small> -->
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-8.jpg" alt="" style="width: 80px;">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/IMG_8345.heic" alt="" style="width: 80px;">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
+                                                <span id="homemenutab33">Margarita</span>
+                                                <span class="text-primary">$</span>
                                             </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                            <small id="homemenutab33a" class="fst-italic">Lemon/Strawberry</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/IMG_8361.heic" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span id="homemenutab34">Orange with milk</span>
+                                                <span class="text-primary">$4.00</span>
+                                            </h5>
+                                          <!--  <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small> -->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/IMG_8346.heic" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span id="homemenutab35">Mojito</span>
+                                                <span class="text-primary">$</span>
+                                            </h5>
+                                         <!--   <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small> -->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                       <!-- <img class="flex-shrink-0 img-fluid rounded" src="img/IMG_8346.heic" alt="" style="width: 80px;"> -->
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span></span>
+                                              <!--  <span class="text-primary">$115</span> -->
+                                            </h5>
+                                          <!--  <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small> -->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/IMG_8355.heic" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span id="homemenutab36">Wine</span>
+                                                <span class="text-primary">$</span>
+                                            </h5>
+                                            <small id="homemenutab36a" class="fst-italic">Red/White</small>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div><!--End Starts Drinks  -->
                     </div>
                 </div>
             </div>
@@ -700,8 +748,8 @@
         <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
             <div class="container">
                 <div class="text-center">
-                    <h5 class="section-title ff-secondary text-center text-primary fw-normal">Testimonial</h5>
-                    <h1 class="mb-5">Our Clients Say!!!</h1>
+                    <h5 id="indtmenu" class="section-title ff-secondary text-center text-primary fw-normal">Testimonial</h5>
+                    <h1 id="indocsmenu" class="mb-5">Our Clients Say!!!</h1>
                 </div>
                 <div class="owl-carousel testimonial-carousel">
                     <div class="testimonial-item bg-transparent border rounded p-4">

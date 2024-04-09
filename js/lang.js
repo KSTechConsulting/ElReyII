@@ -34,6 +34,21 @@ function changeLanguage(lang) {
         menuup3: 'Pages',
         menuup4: 'Menu',
 
+        //Home page up
+        indbutonmenu: 'Menu',
+        indfmmenu: 'Food Menu',
+        indmpimenu: 'Most Popular Items',
+        indtmenu: 'Testimonial',
+        indocsmenu: 'Our Clients Say!!!',
+        indmsg: 'Enjoy Our' + ' ' +
+        'Delicious Meal',
+        idpopbreak: 'Breakfast',
+        idpop: 'Popular',
+        idspclanc: 'Lunch/Dinner',
+        idspc: 'Special',
+        idlovedinner: 'Drinks',
+        idlove: 'Lovely',
+
     //Contact Start -->
         contactst1: 'Contact Us',
         contactst2: 'Contact us with any questions',
@@ -61,6 +76,53 @@ function changeLanguage(lang) {
         menuup12: 'Combos',
 
 //tab-content
+       
+        //Breakfast home page
+
+        homemenutab: '2 Eggs any style w. ',
+        homemenutab1: 'Bacon, ham, sausage, potateos, toast, coffe or tea',
+        homemenutab2: 'Pancakes',
+        homemenutab3: 'With egg & sausage',
+        homemenutab4: 'French toast',
+        homemenutab5: 'With egg & sausage',
+        homemenutab6: 'Dominican Breakfast',
+        homemenutab7: '1 Meat / 1 Choice',
+        homemenutab8: 'Cuban',
+        homemenutab9: '',
+        homemenutab10: 'Beef tripe',
+        homemenutab11: '(Wed, Sat, Sun)',
+
+         //Lunch/dinner home page
+        homemenutab12: 'Grilled chicken breast',
+        homemenutab13: '',
+        homemenutab14: 'Chicken cordon blue',
+        homemenutab15: '(no side)',
+        homemenutab16: 'Skirt steak w/ shrimp',
+        homemenutab17: '',
+        homemenutab18: 'Chicken with rice',
+        homemenutab19: '',
+        homemenutab20: 'Pork chops',
+        homemenutab21: '(1PC)',
+        homemenutab22: 'Mofongo W.roast pork',
+        homemenutab23: 'Mashed fried green plantain',
+        homemenutab24: 'Beef chimichurri',
+        homemenutab25: '',
+       
+        //Drinks home page
+        homemenutab26: 'Non - Alcoholic',
+        homemenutab27: 'Alcoholic',
+        homemenutab28: 'Orange juice',
+        homemenutab29: 'Piña colada',
+        homemenutab30: 'Pineapple juice',
+        homemenutab31: 'Sangria',
+        homemenutab31a: 'White/Red', 
+        homemenutab32: 'Carrot juice',
+        homemenutab33: 'Margarita',
+        homemenutab33a: 'Lemon/Strawberry',
+        homemenutab34: 'Orange with milk',
+        homemenutab35: 'Mojito',
+        homemenutab36: 'Wine',
+        homemenutab36a: 'Red/White',
 
         //Breakfast
         menutab1: 'Omelettes',
@@ -157,7 +219,7 @@ function changeLanguage(lang) {
         menutab247: 'Rice with lobster',
         menutab248: 'Shrimp soupy rice',
         menutab249: 'Rice with shrimp',
-        menutab250: 'chicken with rice',
+        menutab250: 'Chicken with rice',
         menutab251: 'Chicken soupy rice',
         menutab252: 'Calamari with rice',
         menutab253: 'Rice with spanish sauce',
@@ -530,7 +592,22 @@ function changeLanguage(lang) {
        menuup1: 'Menú de comida',
        menuup2: 'Inicio',
        menuup3: 'Páginas',
-       menuup4: 'Menú', 
+       menuup4: 'Menú',
+       
+        //Home up
+        indbutonmenu: 'Menú',
+        indfmmenu: 'Menú de comida',
+        indmpimenu: 'Artículos más populares',
+        indtmenu: 'Testimonio',
+        indocsmenu: 'Nuestros Clientes Dicen!!!',
+        indmsg: 'Disfrute de nuestra' + ' ' +
+        'deliciosa comida',
+        idpopbreak: 'Desayuno',
+        idpop: 'Popular',
+        idspclanc: 'Almuerzo/Cena',
+        idspc: 'Especial',
+        idlovedinner: 'Bebidas',
+        idlove: 'Hermosa',
  
 
         //Contact Start -->
@@ -560,6 +637,52 @@ function changeLanguage(lang) {
         menuup12: 'Combinaciones',
 
 //tab-content
+
+        //Breakfast Home page
+         homemenutab: '2 huevos de cualquier estilo con. ',
+         homemenutab1: 'Tocino, jamón, salchicha, patatas, tostadas, café o té',
+         homemenutab2: 'Panqueques',
+         homemenutab3: 'Con huevo y salchicha',
+         homemenutab4: 'tostadas francesas',
+         homemenutab5: 'Con huevo y salchicha',
+         homemenutab6: 'Desayuno dominicano',
+         homemenutab7: '1 carne / 1 elección',
+         homemenutab8: 'cubano',
+         iniciomenutab9: '',
+         homemenutab10: 'tripas de ternera',
+         homemenutab11: '(miércoles, sábado, domingo)',
+         
+        //Lunch/dinner home page
+         homemenutab12: 'Pechuga de pollo a la parrilla',
+         homemenutab13: '',
+         homemenutab14: 'Pollo cordon blue',
+         homemenutab15: '(sin lado)',
+         homemenutab16: 'Arrachera con camarones',
+         homemenutab17: '',
+         homemenutab18: 'Pollo con arroz',
+         homemenutab19: '',
+         homemenutab20: 'Chuletas de cerdo',
+         homemenutab21: '(1PC)',
+         homemenutab22: 'W.cerdo asado',
+         homemenutab23: 'Plátano verde frito triturado',
+         homemenutab24: 'Chimichurri de ternera',
+         homemenutab25: '',
+
+        //Drinks home page
+        homemenutab26: 'Sin alcohol',
+        homemenutab27: 'Alcohólico',
+        homemenutab28: 'Jugo de naranja',
+        homemenutab29: 'Piña colada',
+        homemenutab30: 'Jugo de piña',
+        homemenutab31: 'Sangría',
+        homemenutab31a: 'Blanco/Rojo',
+        homemenutab32: 'Jugo de zanahoria',
+        homemenutab33: 'Margarita',
+        homemenutab33a: 'Limón/Fresa',
+        homemenutab34: 'Naranja con leche',
+        homemenutab35: 'Mojito',
+        homemenutab36: 'Vino',
+        homemenutab36a: 'Rojo/Blanco',
 
          //Breakfast
          menutab1: 'Tortillas',
@@ -1032,6 +1155,20 @@ function changeLanguage(lang) {
     $('#menuup3').text(languageData[lang].menuup3);
     $('#menuup4').text(languageData[lang].menuup4);
 
+    //Home up
+    $('#indbutonmenu').text(languageData[lang].indbutonmenu);
+    $('#indfmmenu').text(languageData[lang].indfmmenu);
+    $('#indmpimenu').text(languageData[lang].indmpimenu);
+    $('#indtmenu').text(languageData[lang].indtmenu);
+    $('#indocsmenu').text(languageData[lang].indocsmenu);
+    $('#indmsg').text(languageData[lang].indmsg);
+    $('#idpopbreak').text(languageData[lang].idpopbreak);
+    $('#idpop').text(languageData[lang].idpop); 
+    $('#idspclanc').text(languageData[lang].idspclanc);
+    $('#idspc').text(languageData[lang].idspc); 
+    $('#idlovedinner').text(languageData[lang].idlovedinner); 
+    $('#idlove').text(languageData[lang].idlove); 
+
     //Contact Start -->
     $('#contactst1').text(languageData[lang].contactst1);
     $('#contactst2').text(languageData[lang].contactst2);
@@ -1064,6 +1201,52 @@ function changeLanguage(lang) {
     $('#messagelabel').text(languageData[lang].message);
 
 //tab-content
+
+     //Breakfast Home page
+     $('#homemenutab').text(languageData[lang].homemenutab);
+     $('#homemenutab1').text(languageData[lang].homemenutab1);
+     $('#homemenutab2').text(languageData[lang].homemenutab2);
+     $('#homemenutab3').text(languageData[lang].homemenutab3);
+     $('#homemenutab4').text(languageData[lang].homemenutab4);
+     $('#homemenutab5').text(languageData[lang].homemenutab5);
+     $('#homemenutab6').text(languageData[lang].homemenutab6);
+     $('#homemenutab7').text(languageData[lang].homemenutab7);
+     $('#homemenutab8').text(languageData[lang].homemenutab8); 
+     $('#iniciomenutab9').text(languageData[lang].iniciomenutab9);
+     $('#homemenutab10').text(languageData[lang].homemenutab10);
+     $('#homemenutab11').text(languageData[lang].homemenutab11);
+
+    //Lunch/dinner home page
+    $('#homemenutab12').text(languageData[lang].homemenutab12);
+    $('#homemenutab13').text(languageData[lang].homemenutab13);
+    $('#homemenutab14').text(languageData[lang].homemenutab14);
+    $('#homemenutab15').text(languageData[lang].homemenutab15);
+    $('#homemenutab16').text(languageData[lang].homemenutab16);
+    $('#homemenutab17').text(languageData[lang].homemenutab17);
+    $('#homemenutab18').text(languageData[lang].homemenutab18);
+    $('#homemenutab19').text(languageData[lang].homemenutab19);
+    $('#homemenutab20').text(languageData[lang].homemenutab20);
+    $('#homemenutab21').text(languageData[lang].homemenutab21);
+    $('#homemenutab22').text(languageData[lang].homemenutab22);
+    $('#homemenutab23').text(languageData[lang].homemenutab23);
+    $('#homemenutab24').text(languageData[lang].homemenutab24);
+    $('#homemenutab25').text(languageData[lang].homemenutab25);
+
+    //Drinks home page
+    $('#homemenutab26').text(languageData[lang].homemenutab26);
+    $('#homemenutab27').text(languageData[lang].homemenutab27);
+    $('#homemenutab28').text(languageData[lang].homemenutab28);
+    $('#homemenutab29').text(languageData[lang].homemenutab29);
+    $('#homemenutab30').text(languageData[lang].homemenutab30);
+    $('#homemenutab31').text(languageData[lang].homemenutab31);
+    $('#homemenutab31a').text(languageData[lang].homemenutab31a);
+    $('#homemenutab32').text(languageData[lang].homemenutab32);
+    $('#homemenutab33').text(languageData[lang].homemenutab33);
+    $('#homemenutab33a').text(languageData[lang].homemenutab33a);
+    $('#homemenutab34').text(languageData[lang].homemenutab34);
+    $('#homemenutab35').text(languageData[lang].homemenutab35);
+    $('#homemenutab36').text(languageData[lang].homemenutab36);
+    $('#homemenutab36a').text(languageData[lang].homemenutab36a);
 
      //Breakfast
      $('#menutab1').text(languageData[lang].menutab1);
