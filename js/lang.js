@@ -49,6 +49,13 @@ function changeLanguage(lang) {
         idlovedinner: 'Drinks',
         idlove: 'Lovely',
 
+        //home page testimonial
+        com1: 'Best sandwich around. Best sandwich in town. I once ate here 3 days in a row and was embarrassed on the third day, so I had it delivered. Will eat here again! And again!',
+        com2: 'Take me to a place where I can have a delicious home-cooked meal! This Dominican restaurant is where it is at! Whenever I visit them, I am never disappointed as their dishes are always bussin with flavor. Dont forget to try their sancocho and pair it with A Presidente beer!',
+        com3: 'While visiting family in New York City I was taken to this Dominican restaurant for the first time. The service was quick, friendly, Great variety of different food, and the music wow, Salsa and bachata.',
+        com4: 'Great local spot for Dominican food. Been coming here for many years and the food is always good whether through take-out or sitting down to eat with your family for a meal.',
+        com5: 'My wife and I have eaten here for many years now. Best grilled salmon and skirt steak we have eaten and not over priced the owners and staff are very friendly always attentive of customers need. We want to especially thank Donna who is our regular server she goes above and beyond not only for us but to all the customers she serves. And she also makes the best apple martini.',
+
     //Contact Start -->
         contactst1: 'Contact Us',
         contactst2: 'Contact us with any questions',
@@ -608,6 +615,13 @@ function changeLanguage(lang) {
         idspc: 'Especial',
         idlovedinner: 'Bebidas',
         idlove: 'Hermosa',
+
+        //Home page testimonials
+        com1: 'El mejor sándwich que existe. El mejor sándwich de la ciudad. Una vez comí aquí 3 días seguidos y me sentí avergonzado al tercer día, así que me lo trajeron. ¡Comeré aquí de nuevo! ¡Y otra vez!',
+        com2: '¡Llévame a un lugar donde pueda disfrutar de una deliciosa comida casera! ¡Este restaurante dominicano está donde está! Cada vez que los visito, nunca me decepciono ya que sus platos siempre están llenos de sabor. ¡No olvides probar su sancocho y acompañarlo con cerveza A Presidente!',
+        com3: 'Mientras visitaba a mi familia en la ciudad de Nueva York, me llevaron por primera vez a este restaurante dominicano. El servicio fue rápido, amable, gran variedad de comida diferente y música increíble, salsa y bachata.',
+        com4: 'Excelente lugar local para comida dominicana. Llevo muchos años viniendo aquí y la comida siempre es buena, ya sea para llevar o para sentarse a comer con la familia.',
+        com5: 'Mi esposa y yo hemos comido aquí desde hace muchos años. El mejor salmón a la parrilla y filete de falda que hemos comido y no es demasiado caro. Los propietarios y el personal son muy amables y siempre están atentos a las necesidades de los clientes. Queremos agradecer especialmente a Donna, quien es nuestra mesera habitual y ella hace todo lo posible no solo por nosotros sino también por todos los clientes a los que atiende. Y también hace el mejor martini de manzana.',
  
 
         //Contact Start -->
@@ -1168,6 +1182,14 @@ function changeLanguage(lang) {
     $('#idspc').text(languageData[lang].idspc); 
     $('#idlovedinner').text(languageData[lang].idlovedinner); 
     $('#idlove').text(languageData[lang].idlove); 
+
+    //Home page testimonials 
+    $('#com1').text(languageData[lang].com1);
+    $('#com2').text(languageData[lang].com2);
+    $('#com3').text(languageData[lang].com3);
+    $('#com4').text(languageData[lang].com4);
+    $('#com5').text(languageData[lang].com5);
+
 
     //Contact Start -->
     $('#contactst1').text(languageData[lang].contactst1);
