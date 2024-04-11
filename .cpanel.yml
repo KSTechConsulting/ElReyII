@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/uhkj7jqc8dlk/public_html/
-    - /bin/rsync -av public/ $DEPLOYPATH
+    - /bin/rsync -av /home/uhkj7jqc8dlk/repositories/ElReyII $DEPLOYPATH
