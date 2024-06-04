@@ -1,8 +1,8 @@
 /********** Template CSS **********/
 :root {
-    --primary: #E6002E;        /* #FEA116; */
+    --primary: #FEA116;        /* #FEA116; */ /*#E6002E;*/
     --light: #F1F8FF;
-    --dark:  #3C1AFF;                   /* #0F172B; */
+    --dark:  #0F172B;                   /* #0F172B; */ /* 3C1AFF*/
 }
 
   .pdfViewer{
